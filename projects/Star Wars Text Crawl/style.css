@@ -1,0 +1,65 @@
+@font-face {
+	font-family: 'FranklinGothic';
+	src: url('fonts/TFF Franklin Gothic Demi.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+	font-family: 'FranklinGothic', sans-serif;
+	color: #ffd23e;
+	background-color: black;
+	background-image: url('imgs/background.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	-webkit-background-size: cover;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+h1, h2, h4 {
+	padding: 0;
+	margin: 0;
+}
+h1 {
+	text-align: center;
+	font-size: 2em;
+}
+h2 {
+	text-align: center;
+	font-size: 2.75em;
+	padding-bottom: 0.5em;
+}
+h4 {
+	text-align: justify;
+	font-size: 1.75em;
+}
+#moving-text {
+	margin: 0 auto;
+	padding-top: 101vh;
+	max-width: 50vw;
+	position: absolute;
+	top: 0;
+	left: 25vw;
+}
+#btn-holder {
+	position: absolute;
+}
+.btn-dark {
+	margin-top: 0.04em;
+	margin-bottom: 0.04em;
+	padding: 2.5em 0.25em;
+	border-radius: 0.4em;
+	border-color: #111;
+	border-style: solid;
+	border-width: 0.2em;
+	background-color: #222;
+	color: #000;
+}
+.btn-dark:hover {
+	background-color: #333;
+}
